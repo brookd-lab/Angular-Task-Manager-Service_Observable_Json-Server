@@ -1,0 +1,41 @@
+.task {
+    width: 450px;
+}
+
+.strike {
+    text-decoration: line-through;
+    user-select: none;
+}
+
+.noStrike {
+    text-decoration: none;
+    user-select: none;
+}
+
+.card {
+    background: lightgreen;
+}
+
+.card-text {
+    border: 2px solid lightgray;
+    background: green;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 24px;
+    float: left; width: 80%
+}
+
+.card-title {
+    height: 50px;
+    font-size: 32px;
+}
+
+.task-remove {
+    height:50px;
+    font-weight: bold;
+    color:red;
+    font-size:32px;
+    cursor:pointer;
+}

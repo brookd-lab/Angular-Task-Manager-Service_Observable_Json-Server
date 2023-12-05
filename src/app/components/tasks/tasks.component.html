@@ -1,0 +1,15 @@
+<div class="card task mt-5 p-5" style="margin: 0 auto;">
+    <h3 class="card-title text-center">Task Manager</h3>
+
+    <app-task (changed)="add($event)"></app-task>
+
+    <div *ngFor="let task of tasks;index as i">
+        <span class="card-text me-2"
+            (dblclick)="complete(i)"
+            [ngClass]="task.completed ? 'strike' : 'noStrike'">{{task.name}}
+        </span>
+        <span (click)="remove(i)" 
+        class="mb-2 task-remove">X</span>
+</div>
+
+</div>
