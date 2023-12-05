@@ -1,3 +1,6 @@
+# About
+This contains RXJS Observables, Json-Server, uses a Service, adds classes for formatting with Bootstrap
+
 # Test
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.3.
